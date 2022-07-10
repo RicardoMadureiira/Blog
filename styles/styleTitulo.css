@@ -1,0 +1,49 @@
+.titulo {
+    grid-area: titulo;
+    font-family:'Poppins', sans-serif;
+    color: var(--button-bg);
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    background-color: var(--purple-bg);
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 0;
+}
+
+.slogan {
+    width: 500px;
+    font-size: 15px;
+    color: var(--light-purple);
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+}
+
+p {
+    width: 500px;
+    font-size: 15px;
+    color: var(--light-purple);
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+#veja-mais {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    color: var(--button-bg);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    gap: 5px;
+    padding-left: 0;
+}
+
+#veja-mais {
+    cursor: pointer;
+} 

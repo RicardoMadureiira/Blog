@@ -1,0 +1,39 @@
+main {
+    grid-area: main;
+    margin-top: 50px ;
+    border-top: 4px solid var(--green);
+    margin: 0;
+    background-color: var(--light-purple);
+    padding: 50px;
+    display: flex;
+    gap: 130px;
+    
+}
+
+main div > p, aside div > p {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 400;
+}
+
+main div h2, aside div h2 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--purple-bg);
+}
+
+.border-p {
+    border-bottom: 1px solid #F2E7FA;
+}
+
+aside {
+    grid-area: aside;
+    padding: 50px;
+    border-top: 4px solid var(--green);
+    background-color: var(--light-purple);
+}
+
+.margin-div {
+    margin-top: 35px;
+    border-top: 2px solid #F2E7FA;
+    padding-top: 5px;
+}

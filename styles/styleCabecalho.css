@@ -1,0 +1,87 @@
+body { 
+    margin: 0px;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "titulo titulo"
+    "main aside"
+    "section section";
+    
+    color: black;
+}
+
+header {
+    grid-area: header;
+    padding: 50px;
+    background-color: var(--purple-bg);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: .8rem;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+li:nth-child(1) {
+    border-left: 2px solid var(--green);
+    color: var(--light-purple);
+    font-weight: 800;
+    padding-left: 2px;
+}
+
+.pesquisa {
+    display: flex;
+    margin: 0;
+}
+
+#buscar {
+    margin: 0;
+    border: none;
+    border-radius: 2px;
+    height: 44px;
+    background-color: var(--dark-bg);
+    width: 250px;
+}
+
+#buscar::placeholder {
+    text-align:inherit;
+    color: var(--light-purple);
+    padding-left: 25px;
+}
+
+#buscar:focus {
+    color: white;
+    outline: 0;
+}
+
+.imagem-buscar {
+    border: none;
+    background-color: var(--button-bg);
+    border-radius:  0 2px;
+    font-family:'Poppins', sans-serif;
+}
+
+.imagem-buscar:hover {
+    cursor: pointer;
+}
+
+
+
+
+

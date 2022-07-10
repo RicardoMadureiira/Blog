@@ -1,0 +1,25 @@
+.conteudo {
+    grid-area: section;
+    background-color: var(--light-purple);
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo div {
+    width: 374px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 400;
+    width: 374px;
+    margin-top: -1px; 
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--purple-bg);
+}
+
